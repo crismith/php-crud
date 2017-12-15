@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<style>
+		.formulario{
+			    height: 200px;
+			    margin: 151px;
+			    align-content: center;
+			    display: inline-table;
+			    background: #44cc75;
+			    width: 35%;
+		}
+	</style>
+</head>
+	<body>
+	
+		<div class="formulario">
+			<div class="cuadro">
+				<form action="procesar.php" method="POST">
+					<div class="titulo"></div>
+					<table>
+						<tr>
+							<h3>Login</h3>
+							<td> <div class="tuser">Nombre(s):</div></td>
+							<td> <input name="inombre" type="text"></td>
+						</tr>
+						<tr>
+							<td> <div class="tuser">Email:</div></td>
+							<td> <input name="iuser" type="text"></td>
+						</tr>
+						<tr>
+							<td> <div class="tuser">Password:</div></td>
+							<td> <input name="ipassword" type="password"></td>
+						</tr>
+						<tr>
+							<td> <button type="submit">Guardar</button></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			
+		</div>
+	</body>
+</html>
